@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0F172A;
+}
+
+.container {
+    max-width: 1160;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    padding: 0 56px;
+    margin-top: 57px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #F8FAFC;
+}
+
+h1 span {
+    color: #16B8F3;
+}
+
+.container-large {
+    max-width: 1136;
+    margin: 0 auto;
+}
