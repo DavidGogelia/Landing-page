@@ -46,7 +46,7 @@ h1 {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 80 px;
+
 }
 
 .first-section-content {
@@ -141,8 +141,9 @@ h1 {
 }
 
 .rooms-gallery {
-    display:inline-flex;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: space-between; /* or any other alignment you prefer */
     gap: 60px;
 }
 
